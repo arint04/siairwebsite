@@ -3,10 +3,7 @@ import Heading from "./Heading";
 import { service1, service2, service3, check } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
-  PhotoChatMessage,
   Gradient,
-  VideoBar,
-  VideoChatMessage,
 } from "./design/Services";
 
 import Generating from "./Generating";
@@ -21,6 +18,9 @@ const Services = () => {
         />
 
         <div className="relative">
+        <p className="body-1 mb-[2rem] text-n-3">
+        This diverse and talented team combines the expertise of radiologists and machine learning engineers, supported by dedicated staff, to develop cutting-edge AI solutions for healthcare.  Dr. Trongtum Tongdee, Dr. Thanongchai Siriaphisit, Dr. Pairash Saiviroonporn, Dr. Dittapong Songsang, Dr. Sirawat Yamtim, Dr. Worapan  Kusakunniran, Amphai Uraiverotchanakorn
+                </p>
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 center-0 w-full h-full pointer-events-none md:w-auto xl:w-auto">
               <img
@@ -54,39 +54,16 @@ const Services = () => {
                 </p>
               </div>
 
-              <PhotoChatMessage />
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Siriraj Hospital</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                Siriraj Hospital is the oldest and largest hospital in Thailand, located in Bangkok. It was founded in 1888 by King Chulalongkorn and serves as a major public hospital and teaching facility affiliated with the Faculty of Medicine at Mahidol University. Known for its advanced medical services and research, Siriraj Hospital is a leading healthcare institution in Southeast Asia, offering a wide range of specialized medical treatments and comprehensive patient care.
                 </p>
 
-                <ul className="flex items-center justify-between">
-                  {brainwaveServicesIcons.map((item, index) => (
-                    <li
-                      key={index}
-                      className={`rounded-2xl flex items-center justify-center ${
-                        index === 2
-                          ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]"
-                          : "flex w-10 h-10 bg-n-6 md:w-15 md:h-15"
-                      }`}
-                    >
-                      <div
-                        className={
-                          index === 2
-                            ? "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]"
-                            : ""
-                        }
-                      >
-                        <img src={item} width={24} height={24} alt={item} />
-                      </div>
-                    </li>
-                  ))}
-                </ul>
+
               </div>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
@@ -97,9 +74,6 @@ const Services = () => {
                   height={400}
                   alt="Scary robot"
                 />
-
-                <VideoChatMessage />
-                <VideoBar />
               </div>
             </div>
           </div>

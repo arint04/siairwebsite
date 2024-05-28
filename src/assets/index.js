@@ -1,7 +1,7 @@
 import brainwave from "./brainwave.svg";
-import siar from "./SIAR.webp";
+import siar from "./siairheaderlogo.png";
 import check from "./check.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
+import chart from "./chart.png";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
@@ -26,7 +26,7 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
+import robot from "./hero/doublechest.png";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -41,8 +41,8 @@ import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
 
 import service1 from "./services/service-1.png";
-import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.webp";
+import service2 from "./services/service-2.webp";
+import service3 from "./services/hospital.jpg";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -85,7 +85,7 @@ export {
   check,
   check2,
   loading1,
-  brainwaveSymbol,
+  chart,
   brainwaveWhiteSymbol,
   play,
   gradient,

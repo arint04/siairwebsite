@@ -29,7 +29,7 @@ const Pricing = () => {
 
         <Heading
           tag="Get started with SIAIR"
-          title="Free and efficient"
+          title="Multiple Different Models"
         />
 
         <div className="relative">
@@ -43,7 +43,6 @@ const Pricing = () => {
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
             href="/pricing"
           >
-            See the full details
           </a>
         </div>
       </div>

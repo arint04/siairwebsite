@@ -127,7 +127,7 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "";
 
 export const collabContent = [
   {
@@ -208,31 +208,37 @@ export const pricing = [
   {
     id: "0",
     title: "Chest X-Rays",
-    description: "AI chatbot, personalized recommendations",
+    description: "Our first training model and our most accurate of all our offerings. It can detect up to 20 different issues in the chest region with 90% accuracy while still being highly sensitive.",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Pulmonary nodule/mass",
+      "Pulmonary Edema",
+      "Pleural Effusion",
+      "Pneumothorax",
+      "Emphysema",
+      "Cardiothoracic Ratio",
+      "Cavitary lesion",
+      "Atelectasis",
+      "Rib Fracture",
+      "Scoliosis",
     ],
   },
   {
     id: "1",
     title: "Brain CTs",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    description: "Trained on an extensive dataset of brain CT images, our AI tool delivers high accuracy in detecting intracranial hemorrhages, reducing the likelihood of misdiagnosis and ensuring critical cases are promptly identified.",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Cerebral Infarction",
+      "Intracranial Calcification",
+      "Intracranial Hemorrhage (Epidural, Intraparenchymal, Intraventricular, Subarachnoid, Subdural)",
     ],
   },
   {
     id: "2",
-    title: "Hip Fractures",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "Hip X-Ray",
+    description: "The AI system quickly identifies fractures in the hip area, providing instant feedback to healthcare professionals. This rapid analysis is crucial in trauma settings where timely diagnosis is essential.",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Fracture",
+      "Bony Destruiction",
     ],
   },
 ];
